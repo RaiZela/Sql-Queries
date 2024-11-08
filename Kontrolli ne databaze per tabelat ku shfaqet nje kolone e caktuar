@@ -1,0 +1,6 @@
+Kontrolli ne databaze per tabelat ku shfaqet nje kolone e caktuar:
+
+SELECT table_name, column_name
+FROM information_schema.columns
+WHERE column_name = 'your_column_name'
+ORDER BY table_name;
